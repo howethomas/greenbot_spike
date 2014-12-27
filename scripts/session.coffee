@@ -34,5 +34,3 @@ module.exports = (robot) ->
       cmd = args[0]
       args.shift()
       session = start_session(cmd, args)
-
-
